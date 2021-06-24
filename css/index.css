@@ -1,0 +1,113 @@
+#mapid {
+    height: 670px;
+}
+
+h1{
+  font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  font-weight: bolder;
+  margin: 1px;
+  text-shadow: 1px 1px black;
+}
+h2{
+    font-family:Branding Sunweb,Verdana,Geneva,sans-serif;
+}
+h3{
+    font-family: Branding Sunweb,Verdana,Geneva,sans-serif;
+    
+}
+h4{
+    font-family: Branding Sunweb,Verdana,Geneva,sans-serif;
+}
+p {
+   font-family: Branding Sunweb,Verdana,Geneva,sans-serif;
+   font-size: 1em;
+}
+header {
+
+    border-radius: 10px;
+    background-color:white ;
+    color:red;
+    height: 100px;
+    margin-top: 0px;
+    
+}
+main {
+    margin-top: 10px;
+    display: flex;
+    
+}
+
+main .left{
+    width: 50%;
+    background-color:#e9c46a;
+    border-radius: 15px;
+}
+
+main .right {
+    margin-left: 10px;
+    width: 50%;
+    background-color:#2a9d8f ;
+    border-left: 10px solid #E76F51;
+    border-right: 10px solid #E76F51;
+    border-bottom: 10px solid #E76F51;
+    border-radius: 15px;
+
+}
+#mapid{
+    border-radius: 15px;
+}
+
+.right .filter-box .homes-box {
+    width: 100%;
+    margin-right: 0px;
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    display: flex;
+    position: static;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-top:10px solid #F4A261;
+    border-radius: 10px;
+    background-color: #264653;
+}
+
+footer div {
+    width: 33%;
+    height: 20px;
+}
+
+.filter-box label{
+    width: 100px;
+    line-height: 1.8em;
+}
+
+.form-control{
+    line-height: 50px;
+}
+
+.form-control label{
+    letter-spacing: 0.10em;
+
+}
+.book{
+    display: flex;
+    flex-direction: row;
+}
+#keuzes{
+    display: flex;
+    flex-direction: column;
+}
+.currentbooking{
+    border:solid black;
+}
+img{
+    width: 300px;
+    height: 200px;
+    border-radius:15px ;
+}
